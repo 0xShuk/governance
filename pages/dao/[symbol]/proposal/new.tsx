@@ -139,7 +139,7 @@ import IdlSetBuffer from './components/instructions/Mango/MangoV4/IdlSetBuffer'
 import { useRealmQuery } from '@hooks/queries/realm'
 import { usePrevious } from '@hooks/usePrevious'
 import DualVote from './components/instructions/Dual/DualVote'
-import { MultiChoiceForm } from './components/forms/MultiChoiceForm'
+import MultiChoiceForm from './components/forms/MultiChoiceForm'
 import { AssetAccount } from '@utils/uiTypes/assets'
 
 const TITLE_LENGTH_LIMIT = 130

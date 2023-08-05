@@ -9,7 +9,7 @@ import { AssetAccount } from "@utils/uiTypes/assets";
 import { useState } from "react";
 import GovernedAccountSelect from "../GovernedAccountSelect";
 
-export const MultiChoiceForm = ({
+const MultiChoiceForm = ({
     multiChoiceForm,
     updateMultiChoiceForm,
     isMultiFormValidated,
@@ -156,3 +156,5 @@ export const MultiChoiceForm = ({
             
     )
 }
+
+export default MultiChoiceForm;
