@@ -47,6 +47,7 @@ interface Args {
   governingTokenMintPublicKey: PublicKey;
   instructions: TransactionInstruction[];
   isDraft: boolean;
+  options: string[];
   proposalDescription: string;
   proposalTitle: string;
   realmPublicKey: PublicKey;
@@ -279,6 +280,7 @@ export async function createProposal(args: Args) {
     proposalIndex,
     instructionData,
     args.isDraft,
+    args.options,
     votingClient,
     args.callbacks,
   );
