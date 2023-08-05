@@ -38,7 +38,7 @@ import { NFTWithMeta, VotingClient } from '@utils/uiTypes/VotePlugin';
 import { fetchPlugins } from './fetchPlugins';
 
 interface Args {
-  callbacks?: Parameters<typeof _createProposal>[11];
+  callbacks?: Parameters<typeof _createProposal>[12];
   cluster?: string;
   connection: Connection;
   councilTokenMintPublicKey?: PublicKey;
