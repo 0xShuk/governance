@@ -7,7 +7,7 @@ import useRealm from "@hooks/useRealm";
 import Input from '@components/inputs/Input';
 import { AssetAccount } from "@utils/uiTypes/assets";
 import { useState } from "react";
-import GovernedAccountSelect from "../GovernedAccountSelect";
+import GovernedAccountSelect from "pages/dao/[symbol]/proposal/components/GovernedAccountSelect";
 
 const MultiChoiceForm = ({
     multiChoiceForm,
